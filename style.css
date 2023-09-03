@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
-    background-color: rgb(249, 249, 244);
+    background-color: rgb(229, 224, 200);
     margin: 0;
     padding:0;
 }
@@ -9,8 +9,9 @@ body {
     font-family: 'Bebas Neue', sans-serif;
 }
 .logo {
-    font-size: 2rem;
-    letter-spacing: 5px;
+    color: rgb(59, 77, 60);
+    font-size: 3rem;
+    letter-spacing: 13px;
   }
   
   .logo:hover {
@@ -26,6 +27,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  letter-spacing: 7px;
 }
 
 .nav-links {
@@ -35,14 +37,14 @@ nav {
 }
 
 a {
-  color: black;
+  color: rgb(59, 77, 60);
   text-decoration: none;
   text-decoration-color: white;
 }
 
 a:hover {
-  color: grey;
+  color: rgb(118, 114, 114);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(118, 114, 114);
 }
