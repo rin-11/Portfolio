@@ -141,17 +141,18 @@ section {
   /* PROFILE SECTION */
   
   #profile {
-    display: flex;
+    display: absolute;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
   }
   
   .section__pic-container {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    display: absolute;
+    justify-content: center;
+    align-self: center;
+    height: 250px;
+    width: 300px;
   }
   
   .section__text {
@@ -169,7 +170,7 @@ section {
   
   .section__text__p2 {
     font-size: 1.75rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   
   .title {
@@ -186,7 +187,7 @@ section {
 
   /* BUTTONS */
 
-.btn-container {
+  .btn-container {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -200,29 +201,35 @@ section {
     border-radius: 2rem;
   }
   
+  .btn-color-1,
   .btn-color-2 {
     border: rgb(53, 53, 53) 0.1rem solid;
   }
   
+  .btn-color-1:hover,
   .btn-color-2:hover {
     cursor: pointer;
   }
   
+  .btn-color-1:hover,
   .btn-color-2:hover {
     background: rgb(53, 53, 53);
     color: white;
   }
 
-  
-  .btn-color-2 {
-    background: none;
-  }
-  
-  .btn-color-2:hover {
+  .btn-color-1:hover, .btn-color-2:hover {
     border: rgb(255, 255, 255) 0.1rem solid;
   }
   
   .btn-container {
     gap: 1rem;
+  }
+  
+
+  /* ICONS */
+
+.icon {
+    cursor: pointer;
+    height: 4rem;
   }
   

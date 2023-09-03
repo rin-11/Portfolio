@@ -14,6 +14,7 @@
         <div>
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -33,6 +34,9 @@
                 <a href="#about" onclick="toggleMenu()">About</a>
             </li>
             <li>
+                <a href="#experience" onclick="toggleMenu()">Experience</a>
+            </li>
+            <li>
                 <a href="#projects" onclick="toggleMenu()">Projects</a>
             </li>
             <li>
@@ -43,27 +47,35 @@
       </nav>
       <section id="profile">
         <div class="section__pic-container">
-          <img src="./assets/profile-pic.png" alt="profile picture" />
+          <img src="./assets/profile-pic.JPG" alt="profile picture" />
         </div>
         <div class="section__text">
           <p class="section__text__p1">Hello, I'm</p>
           <h1 class="title">Erin Kates</h1>
           <p class="section__text__p2">Full Stack Software Engineer</p>
           <div class="btn-container">
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+            </button>
             <button
               class="btn btn-color-2"
-              onclick="window.open('./assets/resume-example.pdf')"
-            >
+              onclick="window.open('./assets/resume-example.pdf')">
               Download Resume
             </button>
           </div>
           <div id="socials-container">
             <img
-              src="./assets/github.png"
-              alt="My Github profile"
+              src="./assets/githubicon.png"
+              alt="Github Link"
               class="icon"
-              onclick="location.href='https://github.com/'"
+              onclick="location.href='https://github.com/rin-11'"
             />
+            <img
+            src="./assets/linkedinicon.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/erinkates'"
+          />
           </div>
         </div>
       </section>
