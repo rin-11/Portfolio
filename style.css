@@ -148,11 +148,9 @@ section {
   }
   
   .section__pic-container {
-    display: absolute;
+    display: flex;
     justify-content: center;
-    align-self: center;
-    height: 250px;
-    width: 300px;
+    padding: 10px;
   }
   
   .section__text {
@@ -232,4 +230,55 @@ section {
     cursor: pointer;
     height: 4rem;
   }
+
+    /* ABOUT */
+
+
+  #about {
+    position: relative;
+  }
   
+  .about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .about-details-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .about-containers,
+  .about-details-container {
+    display: flex;
+  }
+  
+  .about-pic {
+    border-radius: 5rem;
+    height: 400px;
+  }
+  
+  .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
+  
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
+  
+  .section-container {
+    gap: 4rem;
+    height: 80%;
+  }
+  
+
+  /* EXPERIENCE SECTION */
