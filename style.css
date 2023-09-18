@@ -1,6 +1,7 @@
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 * {
     background-color: rgb(255, 255, 255);
     margin: 0;
@@ -394,5 +395,10 @@ section {
   
   footer p {
     text-align: center;
+  }
+
+  .text-container {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
   }
 
