@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 * {
-    background-color: #98989a;
+    background-color: white;
     margin: 0;
     padding:0;
 }
@@ -400,3 +400,8 @@ section {
     font-family: 'Roboto Mono', monospace;
   }
 
+#projects h4 {
+  text-align: left;
+  letter-spacing: 3px;
+  font-family: 'Roboto Mono', monospace;
+}
